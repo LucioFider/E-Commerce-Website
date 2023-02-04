@@ -1,11 +1,9 @@
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Navbar, Sidebar, Footer } from "./components";
 
 function App() {
-  return (
-    <div>
-      <h1>E-commerce Website Udemy</h1>
-    </div>
-  );
+  return <h4>comfy sloth starter</h4>;
 }
 
 export default App;
